@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605DA0351997C90E00746F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0341997C90E00746F6C /* Foundation.framework */; };
+		605DA0371997C90E00746F6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0361997C90E00746F6C /* CoreGraphics.framework */; };
+		605DA0391997C90E00746F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0381997C90E00746F6C /* UIKit.framework */; };
+		605DA03F1997C90E00746F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605DA03D1997C90E00746F6C /* InfoPlist.strings */; };
+		605DA0411997C90E00746F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605DA0401997C90E00746F6C /* main.m */; };
+		605DA0451997C90E00746F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605DA0441997C90E00746F6C /* AppDelegate.m */; };
+		605DA0481997C90E00746F6C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605DA0461997C90E00746F6C /* Main_iPhone.storyboard */; };
+		605DA04B1997C90E00746F6C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605DA0491997C90E00746F6C /* Main_iPad.storyboard */; };
+		605DA04E1997C90E00746F6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605DA04D1997C90E00746F6C /* ViewController.m */; };
+		605DA0501997C90E00746F6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605DA04F1997C90E00746F6C /* Images.xcassets */; };
+		605DA0571997C90F00746F6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0561997C90F00746F6C /* XCTest.framework */; };
+		605DA0581997C90F00746F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0341997C90E00746F6C /* Foundation.framework */; };
+		605DA0591997C90F00746F6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605DA0381997C90E00746F6C /* UIKit.framework */; };
+		605DA0611997C90F00746F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605DA05F1997C90F00746F6C /* InfoPlist.strings */; };
+		605DA0631997C90F00746F6C /* ex_tapGesture_animationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605DA0621997C90F00746F6C /* ex_tapGesture_animationTests.m */; };
+		605DA06D1997C92700746F6C /* kawano.png in Resources */ = {isa = PBXBuildFile; fileRef = 605DA06C1997C92700746F6C /* kawano.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605DA05A1997C90F00746F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605DA0291997C90E00746F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605DA0301997C90E00746F6C;
+			remoteInfo = ex_tapGesture_animation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		605DA0311997C90E00746F6C /* ex_tapGesture_animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex_tapGesture_animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DA0341997C90E00746F6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		605DA0361997C90E00746F6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		605DA0381997C90E00746F6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		605DA03C1997C90E00746F6C /* ex_tapGesture_animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_tapGesture_animation-Info.plist"; sourceTree = "<group>"; };
+		605DA03E1997C90E00746F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605DA0401997C90E00746F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605DA0421997C90E00746F6C /* ex_tapGesture_animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ex_tapGesture_animation-Prefix.pch"; sourceTree = "<group>"; };
+		605DA0431997C90E00746F6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605DA0441997C90E00746F6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605DA0471997C90E00746F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		605DA04A1997C90E00746F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		605DA04C1997C90E00746F6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605DA04D1997C90E00746F6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605DA04F1997C90E00746F6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		605DA0551997C90F00746F6C /* ex_tapGesture_animationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex_tapGesture_animationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605DA0561997C90F00746F6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		605DA05E1997C90F00746F6C /* ex_tapGesture_animationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ex_tapGesture_animationTests-Info.plist"; sourceTree = "<group>"; };
+		605DA0601997C90F00746F6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605DA0621997C90F00746F6C /* ex_tapGesture_animationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex_tapGesture_animationTests.m; sourceTree = "<group>"; };
+		605DA06C1997C92700746F6C /* kawano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kawano.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605DA02E1997C90E00746F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA0371997C90E00746F6C /* CoreGraphics.framework in Frameworks */,
+				605DA0391997C90E00746F6C /* UIKit.framework in Frameworks */,
+				605DA0351997C90E00746F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DA0521997C90F00746F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA0571997C90F00746F6C /* XCTest.framework in Frameworks */,
+				605DA0591997C90F00746F6C /* UIKit.framework in Frameworks */,
+				605DA0581997C90F00746F6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605DA0281997C90E00746F6C = {
+			isa = PBXGroup;
+			children = (
+				605DA03A1997C90E00746F6C /* ex_tapGesture_animation */,
+				605DA05C1997C90F00746F6C /* ex_tapGesture_animationTests */,
+				605DA0331997C90E00746F6C /* Frameworks */,
+				605DA0321997C90E00746F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605DA0321997C90E00746F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605DA0311997C90E00746F6C /* ex_tapGesture_animation.app */,
+				605DA0551997C90F00746F6C /* ex_tapGesture_animationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605DA0331997C90E00746F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605DA0341997C90E00746F6C /* Foundation.framework */,
+				605DA0361997C90E00746F6C /* CoreGraphics.framework */,
+				605DA0381997C90E00746F6C /* UIKit.framework */,
+				605DA0561997C90F00746F6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605DA03A1997C90E00746F6C /* ex_tapGesture_animation */ = {
+			isa = PBXGroup;
+			children = (
+				605DA0431997C90E00746F6C /* AppDelegate.h */,
+				605DA0441997C90E00746F6C /* AppDelegate.m */,
+				605DA0461997C90E00746F6C /* Main_iPhone.storyboard */,
+				605DA0491997C90E00746F6C /* Main_iPad.storyboard */,
+				605DA04C1997C90E00746F6C /* ViewController.h */,
+				605DA06C1997C92700746F6C /* kawano.png */,
+				605DA04D1997C90E00746F6C /* ViewController.m */,
+				605DA04F1997C90E00746F6C /* Images.xcassets */,
+				605DA03B1997C90E00746F6C /* Supporting Files */,
+			);
+			path = ex_tapGesture_animation;
+			sourceTree = "<group>";
+		};
+		605DA03B1997C90E00746F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605DA03C1997C90E00746F6C /* ex_tapGesture_animation-Info.plist */,
+				605DA03D1997C90E00746F6C /* InfoPlist.strings */,
+				605DA0401997C90E00746F6C /* main.m */,
+				605DA0421997C90E00746F6C /* ex_tapGesture_animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		605DA05C1997C90F00746F6C /* ex_tapGesture_animationTests */ = {
+			isa = PBXGroup;
+			children = (
+				605DA0621997C90F00746F6C /* ex_tapGesture_animationTests.m */,
+				605DA05D1997C90F00746F6C /* Supporting Files */,
+			);
+			path = ex_tapGesture_animationTests;
+			sourceTree = "<group>";
+		};
+		605DA05D1997C90F00746F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605DA05E1997C90F00746F6C /* ex_tapGesture_animationTests-Info.plist */,
+				605DA05F1997C90F00746F6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605DA0301997C90E00746F6C /* ex_tapGesture_animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605DA0661997C90F00746F6C /* Build configuration list for PBXNativeTarget "ex_tapGesture_animation" */;
+			buildPhases = (
+				605DA02D1997C90E00746F6C /* Sources */,
+				605DA02E1997C90E00746F6C /* Frameworks */,
+				605DA02F1997C90E00746F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex_tapGesture_animation;
+			productName = ex_tapGesture_animation;
+			productReference = 605DA0311997C90E00746F6C /* ex_tapGesture_animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605DA0541997C90F00746F6C /* ex_tapGesture_animationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605DA0691997C90F00746F6C /* Build configuration list for PBXNativeTarget "ex_tapGesture_animationTests" */;
+			buildPhases = (
+				605DA0511997C90F00746F6C /* Sources */,
+				605DA0521997C90F00746F6C /* Frameworks */,
+				605DA0531997C90F00746F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605DA05B1997C90F00746F6C /* PBXTargetDependency */,
+			);
+			name = ex_tapGesture_animationTests;
+			productName = ex_tapGesture_animationTests;
+			productReference = 605DA0551997C90F00746F6C /* ex_tapGesture_animationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605DA0291997C90E00746F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					605DA0541997C90F00746F6C = {
+						TestTargetID = 605DA0301997C90E00746F6C;
+					};
+				};
+			};
+			buildConfigurationList = 605DA02C1997C90E00746F6C /* Build configuration list for PBXProject "ex_tapGesture_animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605DA0281997C90E00746F6C;
+			productRefGroup = 605DA0321997C90E00746F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605DA0301997C90E00746F6C /* ex_tapGesture_animation */,
+				605DA0541997C90F00746F6C /* ex_tapGesture_animationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605DA02F1997C90E00746F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA04B1997C90E00746F6C /* Main_iPad.storyboard in Resources */,
+				605DA06D1997C92700746F6C /* kawano.png in Resources */,
+				605DA0501997C90E00746F6C /* Images.xcassets in Resources */,
+				605DA0481997C90E00746F6C /* Main_iPhone.storyboard in Resources */,
+				605DA03F1997C90E00746F6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DA0531997C90F00746F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA0611997C90F00746F6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605DA02D1997C90E00746F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA04E1997C90E00746F6C /* ViewController.m in Sources */,
+				605DA0451997C90E00746F6C /* AppDelegate.m in Sources */,
+				605DA0411997C90E00746F6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605DA0511997C90F00746F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605DA0631997C90F00746F6C /* ex_tapGesture_animationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605DA05B1997C90F00746F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605DA0301997C90E00746F6C /* ex_tapGesture_animation */;
+			targetProxy = 605DA05A1997C90F00746F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605DA03D1997C90E00746F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DA03E1997C90E00746F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		605DA0461997C90E00746F6C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DA0471997C90E00746F6C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		605DA0491997C90E00746F6C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DA04A1997C90E00746F6C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		605DA05F1997C90F00746F6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605DA0601997C90F00746F6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605DA0641997C90F00746F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605DA0651997C90F00746F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605DA0671997C90F00746F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_tapGesture_animation/ex_tapGesture_animation-Prefix.pch";
+				INFOPLIST_FILE = "ex_tapGesture_animation/ex_tapGesture_animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		605DA0681997C90F00746F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_tapGesture_animation/ex_tapGesture_animation-Prefix.pch";
+				INFOPLIST_FILE = "ex_tapGesture_animation/ex_tapGesture_animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		605DA06A1997C90F00746F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_tapGesture_animation.app/ex_tapGesture_animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_tapGesture_animation/ex_tapGesture_animation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ex_tapGesture_animationTests/ex_tapGesture_animationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		605DA06B1997C90F00746F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ex_tapGesture_animation.app/ex_tapGesture_animation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ex_tapGesture_animation/ex_tapGesture_animation-Prefix.pch";
+				INFOPLIST_FILE = "ex_tapGesture_animationTests/ex_tapGesture_animationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605DA02C1997C90E00746F6C /* Build configuration list for PBXProject "ex_tapGesture_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DA0641997C90F00746F6C /* Debug */,
+				605DA0651997C90F00746F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605DA0661997C90F00746F6C /* Build configuration list for PBXNativeTarget "ex_tapGesture_animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DA0671997C90F00746F6C /* Debug */,
+				605DA0681997C90F00746F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		605DA0691997C90F00746F6C /* Build configuration list for PBXNativeTarget "ex_tapGesture_animationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DA06A1997C90F00746F6C /* Debug */,
+				605DA06B1997C90F00746F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605DA0291997C90E00746F6C /* Project object */;
+}

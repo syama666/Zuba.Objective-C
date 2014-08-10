@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA8CD32A-F468-4B03-9EAE-CB86A805D860</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ex_UIStepper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8A8D1C6B-123F-4CBC-9CD2-84B149E3D45A</key>
+		<string>https://github.com/syama666/Zuba.Objective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ex_UIStepper/ex_UIStepper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8A8D1C6B-123F-4CBC-9CD2-84B149E3D45A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/syama666/Zuba.Objective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8A8D1C6B-123F-4CBC-9CD2-84B149E3D45A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A8D1C6B-123F-4CBC-9CD2-84B149E3D45A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Zuba.Objective-C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
